@@ -1,0 +1,9 @@
+{
+    "invalid_log": [
+        {
+          "username": "",
+          "password": "",
+          "expected_error": "Epic sadface: Username is required"
+        }
+      ]
+}
