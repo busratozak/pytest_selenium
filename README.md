@@ -31,7 +31,7 @@ PyTest'te yaygın olarak kullanılan bazı decorator'ler:
 
 4- @pytest.mark.skip: Bu dekoratör, belirli bir testi atlamak için kullanılır. Direk testin çalıştırılmasını engeller.
 
-5-@pytest.mark.skipif: Bu dekoratör, belirli bir koşul sağlandığında bir testin atlanmasını sağlar. 
+5- @pytest.mark.skipif: Bu dekoratör, belirli bir koşul sağlandığında bir testin atlanmasını sağlar. 
 
   @pytest.mark.skipif(condition, reason=None)
   def test_function():
