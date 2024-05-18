@@ -1,7 +1,7 @@
 PyTest Decorators
 PyTest'de kullanılan decoratorler, test fonksiyonlarını işaretlemek ve davranışlarını değiştirmek için kullanılırlar.
-PyTest decorator'leri, test otomasyon sürecinizi yönetmekte yardımcı olur,test kodunuzun kalitesini artırabilir.
-PyTest'te yaygın olarak kullanılan bazı decorator'ler:
+PyTest decorator'leri, test otomasyon sürecini yönetmekte yardımcı olur,test kodlarının kalitesini artırabilir.
+PyTest'te yaygın olarak kullanılan bazı decoratorler:
 
 1- @pytest.fixture: Bu dekoratör, testler arasında paylaşılan verilerin oluşturulmasını ve temizlenmesini sağlayan özel işlevlerin tanımlanmasını sağlar.
  Örneğin, testler arasında veri tabanı bağlantısı oluşturmak veya test verilerini yüklemek için kullanılabilir.
@@ -45,7 +45,5 @@ PyTest'te yaygın olarak kullanılan bazı decorator'ler:
 
  6- @pytest.mark.xfail: Bu dekoratör, bir testin başarısız olmasını beklediğinizi işaretlemek için kullanılır. 
     Eğer test başarısız olursa, bu bir hata olarak sayılmaz, bir beklenen başarısızlık olarak rapor edilir.
-
-
 
 6- @pytest.mark.xfail: Bu dekoratör, bir testin başarısız olmasını beklediğinizi işaretlemek için kullanılır. Eğer test başarısız olursa, bu bir hata olarak sayılmaz, bir beklenen başarısızlık olarak rapor edilir.
