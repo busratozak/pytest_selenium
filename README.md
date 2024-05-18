@@ -35,12 +35,12 @@ PyTest'te yaygın olarak kullanılan bazı decorator'ler:
 
   @pytest.mark.skipif(condition, reason=None)
   def test_function():
-  •Condition: Testin atlanıp atlanmayacağını belirleyen bir koşuldur. Bu koşul bir bool değer döndüren bir ifade olmalıdır. 
+  Condition: Testin atlanıp atlanmayacağını belirleyen bir koşuldur. Bu koşul bir bool değer döndüren bir ifade olmalıdır. 
   Eğer koşul doğruysa (True), test atlanır. Eğer koşul yanlışsa (False), test normal olarak çalıştırılır.
 
   @pytest.mark.skipif(not condition, reason="Test koşulu sağlanmadığı için atlandı.")
   def test_example():
-  •Reason: Opsiyonel bir argümandır ve testin neden atlandığını açıklar. Bu argüman, test raporlarında görünecek bir açıklama olarak kullanılır. 
+  Reason: Opsiyonel bir argümandır ve testin neden atlandığını açıklar. Bu argüman, test raporlarında görünecek bir açıklama olarak kullanılır. 
   Eğer belirtilmezse, varsayılan olarak "skipped" olarak görünür.
 
  6- @pytest.mark.xfail: Bu dekoratör, bir testin başarısız olmasını beklediğinizi işaretlemek için kullanılır. 
